@@ -33,6 +33,8 @@
         copyright: "Tati"
         });
 
+        console.log(geojsonLayer);
+
         const view = new MapView({
           map: map,
           center: [0,0], // Longitude, latitude
@@ -40,6 +42,8 @@
           container: "viewDiv",
           layers: [geojsonLayer]
         });
+
+        console.log(view);
 
     });
   </script>
